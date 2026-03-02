@@ -1,1 +1,0 @@
-# moje-sql-cvicenia
