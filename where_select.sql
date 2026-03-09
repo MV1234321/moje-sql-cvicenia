@@ -79,3 +79,7 @@ SELECT `jmeno`, `prijmeni`  from `studenti`;
 -- Jak bude vypadat výpis Jméno?
 -- Co velikosti písmen
 select * from studenti Where test = 8
+  
+SELECT * FROM studenti WHERE (mesto = 'Brno' OR mesto = 'Ostrava') and pohlavi = 'F';
+
+SELECT * from studenti WHERE test between 3 and 8; 
