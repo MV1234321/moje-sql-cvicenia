@@ -86,3 +86,10 @@ SELECT * from studenti WHERE test between 3 and 8;
 
 SELECT *from studenti
 order by plat ASC;
+
+SELECT mesto, SUM(plat) FROM studenti
+GROUP BY mesto
+having Sum(plat) > 100000;
+
+SELECT mesto, AVG(plat) AS priemerny_plat FROM studenti
+GROUP BY mesto;
