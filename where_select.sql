@@ -83,3 +83,6 @@ select * from studenti Where test = 8
 SELECT * FROM studenti WHERE (mesto = 'Brno' OR mesto = 'Ostrava') and pohlavi = 'F';
 
 SELECT * from studenti WHERE test between 3 and 8; 
+
+SELECT *from studenti
+order by plat ASC;
